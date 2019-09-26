@@ -1,0 +1,27 @@
+/*
+ * Debugging Elements (borders and such) 
+*/
+
+@charset "UTF-8";
+
+/* Containers */
+#header {
+    background-color: #000;
+    border: 1px solid blue;
+
+}
+#content {
+    border: 1px solid red;
+}
+#headshot-and-info {
+    border: 1px solid green;
+}
+#basic-info {
+    border: 1px solid yellow;
+}
+#bio {
+    border: 1px solid orange;
+}
+.separate { /* Insert this div as a way to horizontally separate floats */
+    border: 1px solid purple;
+}

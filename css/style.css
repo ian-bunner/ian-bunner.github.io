@@ -1,0 +1,63 @@
+/*
+ * Ian Bunner
+ * Style Sheet for Personal Webpage
+ * https://ian-bunner.github.io
+ * ian.k.bunner@gmail.com
+*/
+
+@charset "UTF-8";
+
+/* Containers */
+#header {
+    background-color: #eee;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    text-align: center;
+    font-size: 24px;
+
+}
+#content {
+    width: 98%;
+    margin: 1%;
+    font-family: 'Cormorant', Georgia, serif;
+    font-style: medium;
+    font-size: 14px;
+}
+#headshot-and-info {
+    float: left;
+    width: 30%;
+    height: auto;
+}
+#basic-info {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+}
+#position {
+    font-size: 14px;
+    font-style: italic;
+}
+#bio {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.separate { /* Insert this div as a way to horizontally separate floats */
+    clear: both
+}
+
+
+/* Images */
+
+#headshot {
+    width: 90%;
+    height: auto;
+}
+
+/* Classes */
+.beginning-par {
+    margin-top: 0;
+}
