@@ -1,90 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Ian Bunner </title>
 
-<head>
-      <meta charset="utf-8">
-      <title>Ian's Personal Page</title>
-      <meta name="author" content="Ian Bunner">
-      <meta name="description" content="Personal website">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='css/style.css' rel='stylesheet'>
 
-      <link href="css/style.css" rel="stylesheet">
-      <!-- <link href="css/debug.css" rel="stylesheet"> -->
+        <!-- Bootstrap -->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' />
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/sandstone/bootstrap.min.css' />
 
-      <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+        <!--Prism for code high-lighting-->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css' />
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism-solarizedlight.css' / >
 
-</head>
+        <!--KaTeX for fast embedded math-->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css'>
 
-<body>
+        <!--Pseudocode.js-->
+        <link rel='stylesheet' href='https://cdn.rawgit.com/seba-1511/cdn/master/pseudocode.js/pseudocode.min.css'> 
 
-    
-    <!-- 
-    <header id='header'> header text </header>
+        <base target="_blank">
+    </head>
 
-    <main id='content'>
-        <section id='headshot-and-info'>
-            <img src='assets/headshot.jpg' id='headshot'>
-            <div id='basic-info'>
-                <div id='name'> Ian Bunner </div>
-                <div id='position'> 
-                    Undergraduate Researcher at <br> 
-                    University of Southern California
+    <body>
+        <style>
+            body {background-color: #fafff7;}
+        </style>
+        <main class='container'>
+            <div class='header clearfix'>
+                <h1 class='text-center'>Ian Kendall Bunner</h1>
+                <h4 class='text-sm text-muted text-center'>  <span style='font-weight:normal;'><i>Updated November 6, 2019</i></span></h4>
+            </div>
+
+            <p><br />
+            <br />
+            <br /></p>
+
+            <div class='container header-margin'>
+                <div class='col-md-10 col-md-offset-0 row' style='margin-top:10px;'>
+                    <div class='col-md-7' style='text-align:justify;margin-top:25px;font-size:12pt;'>
+                        <p>
+                            I am an undergraduate in the Quantitative Biology
+                            <a href='https://dornsife.usc.edu/qcb/undergraduate/'>program</a>,
+                            with a minor in Computer Science.
+                            After many classes in many disciplines, my interests have
+                            settled in Statistical Learning Theory, Reinforcement Learning,
+                            and Meta-Learning. I have worked on open-source libraries
+                            for the latter two, cherry and learn2learn. 
+                        </p>
+                        <p> 
+                            I am an avid pick-up basketball player, and also
+                            play tennis, racquetball, Spikeball and run. I enjoy
+                            backpacking, and typically hammock camp when doing 
+                            so. I am a HUGE Sacramento Kings fan trapped in Lakers'
+                            territory. NFL Sunday is my guilty pleasure, my team
+                            being the <span style='color:#8B0000'> red-hot </span>
+                            49ers.
+                        </p>
+
+                        <p>[<a href='mailto:bunner@usc.edu'>Contact</a>, 
+                            <a href='./assets/cv.pdf'>CV</a>, 
+                            <a href='http://github.com/ian-bunner'>GitHub</a>]
+                        </p>
+                    </div>
+
+                    <div class='col-md-5' style='text-align:center;'>
+                        <img src='./assets/headshot.jpg' style='max-width:250px;height:auto;padding-top:25px;display:block;margin:auto;margin-left:35%;' alt='headshot' />
+                        <p>
+                        <i><small> </small></i>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </section>
 
-        <section id='bio'>
-            <p class='beginning-par'>Bio goes here. Lorem ipsum dolor sit amet, consectetur adipiscing 
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, 
-            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing 
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, 
-            sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-        </section>
+            <p><br />
+            <br />
+            <br /></p>
 
-        <div class='separate'> </div>
+            <section> 
+                <h4> Work (current) </h4> 
+                <ul>
+                    <li> Head Course Producer, Data Structures and Object Oriented Programming (<a href='http://bytes.usc.edu/cs104/'>CSCI 104</a>)</li>
+                    <li> Course Producer, Introduction to Algorithms and Theory of Computation (<a href='https://classes.usc.edu/term-20191/classes/csci/'>CSCI 270</a>)</li>
+                    <li> Undergraduate Researcher, <a href='https://rohslab.usc.edu/index.html'>Rohs Lab</a> </li>
+                    <li> Undergraduate Researcher, TEDS Lab, supervised by <a href='http://seba1511.net/'>Séb Arnold</a> </li>
+                </ul>
+                <p> Course producers are undergraduate teaching assistants. Responsibilities
+                include holding office hours, creating course handouts/tutorials, and answering posts
+                on a Q&ampA site. Additionally, I have written quiz and exam questions for previous
+                semesters. As a head course producer I manage student submissions and organizational
+                infrastructure. 
+            </section>
 
-        <section> 
-            <h3> Work (current) </h3> 
-            <ul>
-                <li> Head Course Producer, Data Structures and Object Oriented Programming </li>
-                <li> Course Producer, Introduction to Algorithms and Theory of Computation </li>
-                <li> Undergraduate Researcher, Rohs Lab </li>
-                <li> Undergraduate Researcher, Sha Lab </li>
-            </ul>
-            <p> Course producers are undergraduate teaching assistants. Responsibilities
-            include holding office hours, creating course handouts/tutorials, and answering posts
-            on a Q&ampA site. Additionally, I have written quiz and exam questions for previous
-            semesters. As a head course producer I manage student submissions and organizational
-            infrastructure. 
-        </section>
-        <section> 
-            <h3> Languages </h3> 
-            <ul>
-                <li> Object-Oriented: C++11, Python, Golang </li>
-                <li> Functional: Racket </li>
-                <li> Logical: Prolog </li>
-                <li> Utility: LaTeX </li>
-            </ul>
-            I really want to learn Rust and C++20, just haven't found the time yet. 
-        </section>
-        <section> <h3> Papers I've Recently Read </h3> </section>
-        <section> <h3> Areas of Interest </h3> </section>
+            <section> 
+                <h4> Languages </h4> 
+                <ul>
+                    <li> Object-Oriented: C++11, Python, Golang </li>
+                    <li> Functional: Racket </li>
+                    <li> Logical: Prolog </li>
+                    <li> Utility: LaTeX </li>
+                </ul>
+                I really want to learn Rust and C++20, just haven't found the time yet. 
+            </section>
 
-    </main>
+            <section> <h4> Areas of Interest </h4> 
+                <ul>
+                    <li> Statistical Learning Theory </li>
+                    <li> Reinforcement Learning </li>
+                    <li> Explainable AI </li>
+                </ul>
+            </section>
 
-    <footer> footer text </footer>
-    -->
-    <h1> Site under construction </h1>
+            <p><br />
+            <br />
+            <br /></p>
 
-</body>
+            <footer class='footer'>
+                <p><b>Ian Bunner </b> <i></i> Updated November 6, 2019.</p>
+            <footer>
 
+        </main> <!-- /container -->
+
+    </body>
 </html>
